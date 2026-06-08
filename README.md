@@ -1,48 +1,32 @@
-<h1>Projecto sprint 1 ()</h1>
+# 🔍 Aseguramiento de Calidad Funcional y de Interfaz (UI/UX) - Urban Routes
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+## 📋 Contexto del Proyecto
+Este proyecto se centró en la fase inicial de aseguramiento de calidad para la aplicación de movilidad urbana **Urban Routes**. El objetivo principal consistió en realizar un análisis exhaustivo de los requisitos de la interfaz de usuario y diseñar una batería de pruebas de regresión y humo para asegurar que las funcionalidades principales del mapa y las rutas operaran sin fisuras lógicas ni fallas de renderizado.
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+---
 
+## 🛠️ Stack Tecnológico & Herramientas Utilizadas
+*   **Gestión de Pruebas:** Diseño de matrices de pruebas integradas.
+*   **Técnicas de QA:** Pruebas exploratorias y particiones lógicas de comportamiento.
+*   **Documentación:** Markdown técnico para reportes de estabilidad.
 
-<h2>Languages and Utilities Used</h2>
+---
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+## 📊 Casos de Prueba Clave Ejecutados
+A través del plan de pruebas, se validaron escenarios clave de interacción con el sistema:
 
-<h2>Environments Used </h2>
+*   **CASO-1: Desplazamiento del mapa:** Validación de la carga dinámica de objetos y renderizado correcto al navegar de forma vertical y horizontal por la interfaz de Urban Routes.
+*   **CASO-2: Control de Zoom:** Pruebas sobre la escala del mapa y el nivel de detalle visual expuesto al usuario al abrir la aplicación desde cero.
 
-- <b>Windows 10</b> (21H2)
+---
 
-<h2>Program walk-through:</h2>
+## 📸 Evidencia Visual del Proyecto
+A continuación se muestran las pruebas lógicas y matrices de casos diseñadas para la interfaz:
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+> [▶️ carpeta de evidencias](https://drive.google.com/drive/folders/1v7wK2l4AJQk-vWUNm4oHfmBYEKXH6NGw?usp=drive_link)
+
+---
+
+## 🎯 Conclusiones y Resultados
+*   **Estabilidad de la Interfaz:** Las pruebas lógicas iniciales arrojaron un comportamiento sólido en las funciones básicas del mapa, validando que la aplicación responde de manera fluida a los eventos de arrastre y posicionamiento.
+*   **Garantía de Regresión:** La documentación generada actúa como la base para el pipeline de pruebas manuales antes de desplegar nuevas características de diseño.
